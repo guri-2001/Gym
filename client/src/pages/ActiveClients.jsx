@@ -236,7 +236,7 @@ export default function ActiveClients() {
 
   const hanleShow = async (id) => {
     try {
-      const response = await axios.get(`http://localhost:5000/imageById/${id}`);
+      const response = await axios.get(`https://gym-aeyn.onrender.com/imageById/${id}`);
       setImageById(response.data.image);
       // console.log(response.data);
 
@@ -340,7 +340,7 @@ export default function ActiveClients() {
                               <TableCell component="th" scope="row" sx={{ padding: "10px" }}>
                                 <img
                                   // src={require(`../../../server/uploads//${row.image}`)}
-                                  src={`http://localhost:5000${row.image}`}
+                                  src={`https://gym-aeyn.onrender.com${row.image}`}
                                   height={70}
                                   width={70}
                                   alt=""
