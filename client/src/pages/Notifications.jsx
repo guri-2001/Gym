@@ -103,7 +103,7 @@ export default function Notifications() {
 
     const hanleShow = async (id) => {
         try {
-          const response = await axios.get(`http://localhost:5000/imageById/${id}`);
+          const response = await axios.get(`https://gym-aeyn.onrender.com/imageById/${id}`);
           setImageById(response.data.image);
           // console.log(response.data);
     
@@ -208,7 +208,7 @@ export default function Notifications() {
                                                     <TableCell sx={{ padding: "10px" }} component="th" scope="row">
                                                         <img
                                                             // src={require(`../../../server/uploads/${row.image}`)}
-                                                            src={`http://localhost:5000${row.image}`}
+                                                            src={`https://gym-aeyn.onrender.com${row.image}`}
                                                             height={60}
                                                             width={60}
                                                             alt=""
