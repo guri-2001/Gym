@@ -1,0 +1,103 @@
+.inner_main_div {
+    /* border: 1px solid #3e99e0; */
+    margin: 0px 20px;
+    background-color: #fff;
+    padding: 20px 10px 20px 10px;
+}
+
+.main_div h3 {
+    font-size: 30;
+    padding: 20px;
+}
+
+.images_main_div {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.images_main_div .image_div {
+    width: 23.6%;
+    overflow: hidden;
+}
+
+.images_main_div .image {
+    object-fit: cover;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.images_main_div .image:hover {
+    transform: scale(1.1);
+}
+
+
+.addgallery_inner_main_div {
+    margin: 30px 20px 0 20px;
+    background-color: #fff;
+    border: 1px solid #3e99e0;
+}
+
+.gallery_heading {
+    background-color: #3e99e0;
+    padding: 4px 10px;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form_div{
+    padding: 30px 30px 50px;
+}
+
+.caption_line{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.form_div>div{
+    display: flex;
+    gap: 20px;
+}
+
+.image_add_div{
+    background-color: rgb(107, 178, 0);
+    color: #fff;
+    padding: 4px 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.addImage_btn{
+    background-color: #3e99e0;
+    color: #fff;
+    padding: 4px 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cancel_btn{
+    background-color: #ec9838;
+    color: #fff;
+    padding: 4px 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.delete_btn{
+    background-color: red;
+    color: #fff;
+    padding: 4px 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}

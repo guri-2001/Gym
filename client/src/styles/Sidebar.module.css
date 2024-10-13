@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.logo_div {
+    height: auto;
+    display: grid;
+    place-content: center;
+    margin-left: 10px;
+}
+
+.logo_div .logo {
+    width: 88%;
+    margin-top: -50px;
+}
+
+.menu_div ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu_div ul li {
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 5px;
+    transition: all 0.2s;
+}
+
+.menu_div ul li:hover {
+    background-color: rgb(86, 86, 86);
+    border-left: 5px solid rgb(0, 251, 255);
+}
+
+.menu_div ul li .ul_icons {
+    font-size: 27px;
+    padding-left: 10px;
+}
+
+.menu_div ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+
+.time_div {
+    color: #fff;
+    margin: 25px 32px;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 1px solid rgb(110, 110, 110);
+}
+
+.time_div h5 {
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.time_div p {
+    font-size: 25px;
+}
+
+.accordion {
+    background: transparent;
+    border: none;
+    transition: all 0.5s;
+    height: auto;
+    color: #fff;
+    /* margin-left: 10px; */
+}
+
+.accordion_title {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+    /* background-color: green; */
+    padding: 10px 0;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.accordion_title:hover {
+    background-color: rgb(86, 86, 86);
+    border-left: 5px solid rgb(0, 251, 255);
+}
+
+.accordion_title .ul_icons {
+    font-size: 27px;
+    padding-left: 10px;
+}
+
+.accordion_content {
+    padding: 10px 0;
+    margin-top: 5px;
+    /* width: 230px; */
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.accordion_content .ul_icons {
+    padding-left: 10px;
+}
+
+.accordion_content a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.accordion_content:hover {
+    background-color: rgb(86, 86, 86);
+    border-left: 5px solid rgb(0, 251, 255);
+}

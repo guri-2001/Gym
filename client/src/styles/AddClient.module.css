@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main_div{
+    width: 100%;
+}
+
+.inner_div{
+    border: 1px solid #3e99e0;
+    margin: 0px 20px;
+    background-color: #fff;
+}
+
+.inner_div .form_heading{
+    background-color: #3e99e0;
+    padding: 4px 10px;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inner_div .form_heading .user_icon{
+    font-size: 14px;
+}
+
+.inner_div form{
+    padding: 50px 0;
+}
+
+.inner_div .input_div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /* gap: 50px; */
+}
+
+.inner_div .input_div .label_div{
+    width: 300px;
+    /* background-color: aliceblue; */
+    text-align: right;
+    margin-right: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.inner_div .input_div .image{
+    border: none;
+    display: none;
+}
+
+.inner_div .input_div input{
+    /* width: 100%; */
+    padding: 3px 10px;
+    outline: none;
+    border: 1px solid rgb(168, 168, 168)
+}
+
+.inner_div .input_div textarea{
+    width: 50%;
+    height: 80px;
+    padding: 3px 10px;
+    outline: none;
+    border: 1px solid rgb(168, 168, 168)
+}
+
+.inner_div .submit_btn{
+    background-color: #3e99e0;
+    color: #fff;
+    padding: 4px 10px;
+}
+
+.inner_div .reset_btn{
+    background-color: #696969;
+    color: #fff;
+    padding: 4px 10px;
+    margin-left: 15px;
+}
+
+.pagination_div{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    position: relative;
+    top: 20px;
+}
