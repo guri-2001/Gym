@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 // Middleware for parsing JSON
 app.use(express.json());
 const crossOrigin = {
-    origin: 'http://localhost:3000',
+    origin: 'zenithgym.vercel.app',
     credentials: true
 }
 app.use(cors(crossOrigin));
