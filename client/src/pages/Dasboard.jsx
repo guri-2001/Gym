@@ -333,7 +333,7 @@ export default function Dasboard() {
                         >
                           <TableCell sx={{ display: "flex", gap: "20px", padding: "10px" }} className={style.recent_user_name_div} component="th" scope="row">
                             <img
-                            // src={require(`../../../server/uploads/${row.image}`)}
+                            // src={require(`https://gym-aeyn.onrender.com${row.image}`)}
                             src={`http://localhost:5000${row.image}`}
                             height={45}
                             width={45}
