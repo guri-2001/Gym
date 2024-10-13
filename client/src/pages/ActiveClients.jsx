@@ -386,7 +386,7 @@ export default function ActiveClients() {
                             <div className="modal-dialog modal-dialog-centered">
                               <div className="modal-content">
                                 <div className="modal-body" style={{ display: "flex", justifyContent: "center", flexDirection: "column" }}>
-                                  <img src={`http://localhost:5000${imageById}`} alt="Uploaded" style={{ width: '400px' }}
+                                  <img src={`https://gym-aeyn.onrender.com${imageById}`} alt="Uploaded" style={{ width: '400px' }}
                                   />
                                 </div>
                               </div>
